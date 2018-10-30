@@ -19,7 +19,31 @@ Research the products that AWS and GCP offer for storage, computing and analytic
 
 Design 2 different ways of migrating homework 2's outputs to GCP. Evaluate the strength and weakness of each method using the Agile Data Science framework.
 
+Method 1:Jypter on Google cloud 
+Online Jupyter Notebooks in Python which run on Google’s servers, can be accessed from anywhere with an internet connection, are free to use, and are shareable like any Google Doc. Google Colab has made the process of using cloud computing a breeze. No need to configure an instance like Amazon EC2.
+To use Colab, all you need is an internet connection and a Google account. If you just want an introduction, head to colab.research.google.com and create a new notebook, or explore the tutorial Google has developed (called Hello, Colaboratory). Sign into your Google account, open the notebook in Colaboratory, click File > save a copy in Drive, and you will then have your own version to edit and run.
+https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52
+
+Method 2: Flask on google cloud
+https://cloud.google.com/appengine/docs/standard/python/getting-started/python-standard-env
+
+
 Design 2 different ways of migrating homework 2's outputs to AWS. Evaluate the strength and weakness of each method using the Agile Data Science framework.
+
+Answer: 
+Method 1:Jypter on AWS
+https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-jupyter.html
+
+Method 2:Flask on AWS
+https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80
+
+Automated machine learning (abbreviated auto-ml) aims to algorithmically design and optimize a machine learning pipeline for a particular problem. In this context, the machine learning pipeline consists of:
+    Feature Preprocessing: imputation, scaling, and constructing new features
+    Feature selection: dimensionality reduction
+    Model Selection: evaluating many machine learning models
+    Hyperparameter tuning: finding the optimal model settings
+
+
 
 Critical Thinking (8 points total)
 Fill out the critical thinking section by modifying this README.md file.
