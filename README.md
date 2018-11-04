@@ -75,3 +75,5 @@ Weaknesses: The downside is that you are limited to what the cloud based machine
 
 Applied (7 points total)
 Choose one of the methods described above, and implement it using your work from homework 2. Submit screenshots in the screenshot folder on this repo to document the completion of your process.
+
+I used AWS Ubuntu to Docker images for my homework 2. Please see steps in Screen Short file.
