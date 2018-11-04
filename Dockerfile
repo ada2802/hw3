@@ -23,9 +23,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY *.py ./
 
 #copy kaggle json file to root/.kaggle
-copy kaggle.json /root/.kaggle
+copy kaggle.json ./ 
 
-
+CMD ["cp kaggle.json /root/.kaggle/kaggle.json "]
 
 #RUN ["mkdir", "notebooks"]
 #COPY jupyter_notebook_config.py /root/.jupyter/
