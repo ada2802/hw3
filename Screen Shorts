@@ -1,1 +1,16 @@
 
+Step 1: git files from my github and store to hw3 folder
+ 
+Step 2: build docker images
+ 
+Step 3: check docker images in hw3 
+ 
+Step 4: run images 
+ 
+Step 5: run pull_data python file in Docker
+ 
+Step 6: run train_model_data python file in Docker
+ 
+Step 7: run train_score_model python file in Docker
+ 
+
