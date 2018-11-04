@@ -23,7 +23,7 @@ api = KaggleApi()
 
 api.authenticate()
 
-api.competition_download_files('titanic', path = download_path)
+api.competition_download_files('titanic')
 
     
     
